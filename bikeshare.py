@@ -20,7 +20,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data!!')
     print('\nPlease select/enter a city: Chicago, New York City, Washington')
     
     city=""
@@ -51,7 +51,7 @@ def get_filters():
 
     if filter_choice in ("month","both"):
         print("")
-        print("Please select a month: January, February, March, April, May or June")
+        print("Please, select a month: January, February, March, April, May or June")
         while month not in avail_months:
             month = input().lower()
             if month not in avail_months:
@@ -61,7 +61,7 @@ def get_filters():
     day = 0
     if filter_choice in ("day","both"):
         print("")
-        print("Please specify the day of the week? Enter your response as an integer(e.g., 1=Monday).")
+        print("Please specify the day of the week?? Enter your response as an integer(e.g., 1=Monday).")
         check_day = False
         while check_day == False:
             try:
