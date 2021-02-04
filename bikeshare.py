@@ -51,7 +51,7 @@ def get_filters():
 
     if filter_choice in ("month","both"):
         print("")
-        print("Please select a month: January, February, March, April, May or June")
+        print("Please, select a month: January, February, March, April, May or June")
         while month not in avail_months:
             month = input().lower()
             if month not in avail_months:
