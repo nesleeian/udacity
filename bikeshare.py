@@ -61,7 +61,7 @@ def get_filters():
     day = 0
     if filter_choice in ("day","both"):
         print("")
-        print("Please specify the day of the week? Enter your response as an integer(e.g., 1=Monday).")
+        print("Please specify the day of the week?? Enter your response as an integer(e.g., 1=Monday).")
         check_day = False
         while check_day == False:
             try:
