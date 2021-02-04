@@ -13,7 +13,7 @@ filter_choice=''
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze..
 
     Returns:
         (str) city - name of the city to analyze
@@ -26,7 +26,7 @@ def get_filters():
     city=""
     cities=["chicago", "new york city", "washington"]
     
-    """Prompts user to enter a city correctly"""    
+    """Prompts user to enter a city correctly."""    
     while city not in cities:
         city = input().lower()
         if city not in cities:
